@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 export const About = () => {
   return (
@@ -11,18 +12,15 @@ export const About = () => {
                 <p className='text-xl uppercase tracking-widest'>About</p>
                 <h2 className='py-5'>Who Am I?</h2>
                 <p className='text-lg'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facere, voluptate. Qui cumque voluptatibus nulla quo nam.
-                    Nostrum magni nisi ipsam provident mollitia reprehenderit, 
-                    hic amet magnam sunt doloribus sit dicta?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facere, voluptate. Qui cumque voluptatibus nulla quo nam.
+                    My name is <span className='font-bold'>Niek Goedemans</span>, 
+                    and I am currently still in college as an 18 year old Front-End Developer
+                    at <Link href="https://www.bit-academy.nl/" className='underline' target="_blank">The Bit Acadamy</Link> in 
+                    Purmerend, The Netherlands. The past few years I have been busy with learning programming. In my freetime i like to
+                    start new projects like this one to show off my skills.
                 </p>
                 <p className='text-lg'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facere, voluptate. Qui cumque voluptatibus nulla quo nam.
-                    Nostrum magni nisi ipsam provident mollitia reprehenderit, 
-                    hic amet magnam sunt doloribus sit dicta?
+                    Besides programming i also like to go to the gym for 6 times per week if possible, and i love playing games
+                    with my friends to clear my head and have fun. I am very social and like to meet new people.
                 </p>
             </div>
             <div className='h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
