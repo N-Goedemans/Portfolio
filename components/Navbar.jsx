@@ -12,20 +12,22 @@ export const Navbar = () => {
     setNav(!nav)
   }
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100] bg-white'>
+    <div className='fixed w-full h-20 shadow-xl z-[100] bg-gray-200'>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-          <Image src="/../public/assets/logo.png" alt="/" width="80" height="30"/>
+        <Link href="#home" scroll={false}>
+          <Image className='cursor-pointer' src="/../public/assets/logo.png" alt="/" width="80" height="30"/>
+        </Link>
       <ul className='hidden md:flex'>
-        <Link href='/'>
+        <Link href="#home" scroll={false}>
           <li className='ml-10 text-sm uppercase hover:border-b color-black'>Home</li>
         </Link>
-        <Link href='/'>
+        <Link href='#about' scroll={false}>
           <li className='ml-10 text-sm uppercase hover:border-b color-black'>About</li>
         </Link>
-        <Link href='/'>
+        <Link href='#skills' scroll={false}>
           <li className='ml-10 text-sm uppercase hover:border-b color-black'>Skills</li>
         </Link>
-        <Link href='/'>
+        <Link href='#contact' scroll={false}>
           <li className='ml-10 text-sm uppercase hover:border-b color-black'>Contact</li>
         </Link>
       </ul>
@@ -50,16 +52,16 @@ export const Navbar = () => {
           </div>
           <div className='py-8 flex flex-col'>
             <ul className='uppercase'>
-              <Link href='/'>
+              <Link href="#home" onClick={handleNav} scroll={false}>
               <li className='py-4 text-sm'>Home</li>
               </Link>
-              <Link href='/'>
+              <Link href='#about' onClick={handleNav} scroll={false}>
               <li className='py-4 text-sm'>About</li>
               </Link>
-              <Link href='/'>
+              <Link href='#skills' onClick={handleNav} scroll={false}>
               <li className='py-4 text-sm'>Skills</li>
               </Link>
-              <Link href='/'>
+              <Link href='#contact' onClick={handleNav} scroll={false}>
               <li className='py-4 text-sm'>Contact</li>
               </Link>
             </ul>
