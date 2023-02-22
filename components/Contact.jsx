@@ -42,9 +42,11 @@ export const Contact = () => {
                                 <FaGithub/>
                             </div>
                         </Link>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <AiOutlineMail/>
-                        </div>
+                        <Link href={"mailto:niekgoedemans93@gmail.com"}>
+                          <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
+                              <AiOutlineMail/>
+                          </div>
+                        </Link>
                     </div>
               </div>
             </div>
