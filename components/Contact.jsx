@@ -16,10 +16,10 @@ export const Contact = () => {
         </p>
         <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 ease-in duration-300'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-1 h-full'>
               <div>
-                <Image className='rounded-xl' src="/../public/assets/contact-image.jpg" alt="/" width="520" height="30"/>
+                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/images/contact-image.jpg" alt="/" width="440" height="30"/>
               </div>
               <div>
                 <h2 className='py-4'>Niek Goedemans</h2>

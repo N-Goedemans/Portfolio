@@ -21,7 +21,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/html-logo.png" 
+                                src="/../public/assets/images/html-logo.png" 
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -36,7 +36,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/css-logo.png" 
+                                src="/../public/assets/images/css-logo.png" 
                                 width="64"
                                 height="64" 
                                 alt="/"
@@ -51,7 +51,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/javascript-logo.png" 
+                                src="/../public/assets/images/javascript-logo.png" 
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -66,7 +66,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/nextjs-logo.png" 
+                                src="/../public/assets/images/nextjs-logo.png" 
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -81,7 +81,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/tailwind-logo.png" 
+                                src="/../public/assets/images/tailwind-logo.png" 
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -96,7 +96,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 pt-3 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/php-logo.png" 
+                                src="/../public/assets/images/php-logo.png" 
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -111,7 +111,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 pt-3 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/mysql-logo.png" 
+                                src="/../public/assets/images/mysql-logo.png" 
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -126,7 +126,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/git-logo.png" 
+                                src="/../public/assets/images/git-logo.png" 
                                 width="64" 
                                 height="64" 
                                 alt="/"
