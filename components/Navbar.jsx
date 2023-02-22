@@ -4,6 +4,7 @@ import React from 'react'
 import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import logo from '../public/assets/images/logo.png'
 
 export const Navbar = () => {
   const [nav, setNav] = React.useState(false)
@@ -15,7 +16,7 @@ export const Navbar = () => {
     <div className='fixed w-full h-20 shadow-xl z-[100] bg-gray-200'>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href="#home" scroll={false}>
-          <Image className='cursor-pointer' src="/public/assets/images/logo.png" alt="/" width="80" height="30"/>
+          <Image className='cursor-pointer' src={logo} alt="/" width="80" height="30"/>
         </Link>
       <ul className='hidden md:flex'>
         <Link href="#home" scroll={false}>
