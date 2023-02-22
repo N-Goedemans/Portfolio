@@ -2,13 +2,12 @@ import Image from 'next/image'
 import React from 'react'
 import htmlLogo from '../public/assets/images/html-logo.png'
 import cssLogo from '../public/assets/images/css-logo.png'
-import jsLogo from '../public/assets/images/js-logo.png'
+import jsLogo from '../public/assets/images/javascript-logo.png'
 import nextLogo from '../public/assets/images/next-logo.png'
 import tailwindLogo from '../public/assets/images/tailwind-logo.png'
 import phpLogo from '../public/assets/images/php-logo.png'
 import mysqlLogo from '../public/assets/images/mysql-logo.png'
 import gitLogo from '../public/assets/images/git-logo.png'
-import css from 'styled-jsx/css'
 
 export const Skills = () => {
   return (
