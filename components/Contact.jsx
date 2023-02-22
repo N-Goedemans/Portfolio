@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import contactImage from '../public/assets/images/contact-image.jpg'
 
 export const Contact = () => {
   return (
@@ -19,7 +20,7 @@ export const Contact = () => {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-1 h-full'>
               <div>
-                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/images/contact-image.jpg" alt="/" width="440" height="30"/>
+                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={contactImage} alt="/" width="440" height="30"/>
               </div>
               <div>
                 <h2 className='py-4'>Niek Goedemans</h2>

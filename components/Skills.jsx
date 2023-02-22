@@ -1,5 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
+import htmlLogo from '../public/assets/images/html-logo.png'
+import cssLogo from '../public/assets/images/css-logo.png'
+import jsLogo from '../public/assets/images/js-logo.png'
+import nextLogo from '../public/assets/images/next-logo.png'
+import tailwindLogo from '../public/assets/images/tailwind-logo.png'
+import phpLogo from '../public/assets/images/php-logo.png'
+import mysqlLogo from '../public/assets/images/mysql-logo.png'
+import gitLogo from '../public/assets/images/git-logo.png'
+import css from 'styled-jsx/css'
 
 export const Skills = () => {
   return (
@@ -21,7 +30,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/images/html-logo.png" 
+                                src={htmlLogo}
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -36,7 +45,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/images/css-logo.png" 
+                                src={cssLogo}
                                 width="64"
                                 height="64" 
                                 alt="/"
@@ -51,7 +60,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/images/javascript-logo.png" 
+                                src={jsLogo}
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -66,7 +75,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/images/nextjs-logo.png" 
+                                src={nextLogo}
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -81,7 +90,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/images/tailwind-logo.png" 
+                                src={tailwindLogo}
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -96,7 +105,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 pt-3 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/images/php-logo.png" 
+                                src={phpLogo}
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -111,7 +120,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 pt-3 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/images/mysql-logo.png" 
+                                src={mysqlLogo}
                                 width="64" 
                                 height="64" 
                                 alt="/"
@@ -126,7 +135,7 @@ export const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src="/../public/assets/images/git-logo.png" 
+                                src={gitLogo}
                                 width="64" 
                                 height="64" 
                                 alt="/"
