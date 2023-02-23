@@ -54,15 +54,9 @@ export const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
 
-            <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-              <input type="text" name="name" />
-              <input type="email" name="email" />
-              <input type="text" name="subject"/>
-              <textarea name="message"></textarea>
-            </form>
 
-              <form name='contact' method='POST'>
-              <input type="hidden" name="form-name" value="contact" />
+              <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" />
                 <div className='grid md:grid-cols-1 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='rounded-xl uppercase text-sm py-2 text-gray-600'>Name</label>
