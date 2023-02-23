@@ -55,7 +55,7 @@ export const Contact = () => {
             <div className='p-4'>
 
 
-              <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+              <form name="contact" action="/success/" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className='grid md:grid-cols-1 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
