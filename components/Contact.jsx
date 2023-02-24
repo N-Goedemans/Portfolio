@@ -54,7 +54,6 @@ export const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
 
-
               <form name="contact" action="/success/" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className='grid md:grid-cols-1 gap-4 w-full py-2'>
@@ -74,7 +73,7 @@ export const Contact = () => {
                     <label className='rounded-xl uppercase text-sm py-2 text-gray-600'>Message</label>
                     <textarea name="message" cols="30" rows="10" className='rounded-lg border-2 border-gray-300 p-2'></textarea>
                   </div>
-                  <button className='uppercase p-4'>
+                  <button className='uppercase p-4 shadow-xl shadow-gray-400 rounded-xl bg-gradient-to-r from-[#414141] via-[#000000] to-[#414141] text-white'>
                     Send Message
                   </button>
                 </div>

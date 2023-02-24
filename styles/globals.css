@@ -22,7 +22,4 @@ html {
   li {
     @apply cursor-pointer;
   }
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#414141] via-[#000000] to-[#414141] text-white
-  }
 }
